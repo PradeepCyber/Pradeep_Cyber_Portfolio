@@ -7,25 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Matrix Background -->
-    <div class="matrix-bg"></div>
-    <canvas class="matrix-canvas" id="matrixCanvas"></canvas>
-    <div class="cyber-grid"></div>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
 
     <!-- Header -->
     <header>
         <nav class="container">
-            <div class="logo">PRADEEP_S_PORTFOLIO</div>
+            <div class="logo">PRADEEP S</div>
             <ul class="nav-links">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#certifications">CERTIFICATIONS</a></li>
-                <li><a href="#projects">PROJECTS</a></li>
-                <li><a href="#achievements">ACHIEVEMENTS</a></li>
-                <li><a href="#experience">EXPERIENCE</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -37,8 +38,8 @@
             <p class="tagline">Cybersecurity Enthusiast | CEH & CCNA Certified</p>
             <p class="intro">I specialize in cybersecurity and ethical hacking, with expertise in phishing detection and network security. My goal is to build innovative and reliable solutions to protect digital systems from modern cyber threats.</p>
             <div class="cta-buttons">
-                <a href="#projects" class="btn btn-primary">[VIEW_PROJECTS]</a>
-                <a href="#contact" class="btn btn-secondary">[DOWNLOAD_RESUME]</a>
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Download Resume</a>
             </div>
         </div>
     </section>
@@ -46,7 +47,7 @@
     <!-- About Section -->
     <section id="about">
         <div class="container">
-            <h2 class="section-title">ABOUT ME</h2>
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <p>I am a cybersecurity and ethical hacking enthusiast with a focus on building secure and reliable digital solutions. With hands-on experience in phishing detection and a CCNA certification, I strive to create innovative strategies to tackle modern cyber threats.</p>
                 <br>
@@ -58,10 +59,10 @@
     <!-- Skills Section -->
     <section id="skills">
         <div class="container">
-            <h2 class="section-title">TECHNICAL SKILLS</h2>
+            <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>🛡️ CYBERSECURITY SKILLS</h3>
+                    <h3>🛡️ Cybersecurity Skills</h3>
                     <div class="skill-item">→ Networking Fundamentals</div>
                     <div class="skill-item">→ Operating Systems (Linux, Windows)</div>
                     <div class="skill-item">→ Web Application Vulnerability Assessment</div>
@@ -69,7 +70,7 @@
                     <div class="skill-item">→ Threat Analysis & Vulnerability Scanning</div>
                 </div>
                 <div class="skill-category">
-                    <h3>💻 PROGRAMMING & TOOLS</h3>
+                    <h3>💻 Programming & Tools</h3>
                     <div class="skill-item">→ Languages: Python, Java, Web Development (HTML, CSS)</div>
                     <div class="skill-item">→ Databases: MySQL, MongoDB</div>
                     <div class="skill-item">→ CEH Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus, Nikto, John the Ripper</div>
@@ -81,7 +82,7 @@
     <!-- Certifications Section -->
     <section id="certifications">
         <div class="container">
-            <h2 class="section-title">CERTIFICATIONS & COURSES</h2>
+            <h2 class="section-title">Certifications & Courses</h2>
             <div class="certifications-grid">
                 <div class="certification-card">
                     <div class="certification-header">
@@ -122,46 +123,121 @@
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
-            <h2 class="section-title">PROJECTS</h2>
+            <h2 class="section-title">All Projects</h2>
             <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="project-title">Phishing Detection System (ML-Based)</h3>
+                <!-- AI Phishing Detection Project -->
+                <div class="project-card ai-project">
+                    <div class="project-header ai-header">
+                        <span class="project-badge">🏆 Award Winner</span>
+                        <h3 class="project-title">AI-Powered Phishing Detection & Mitigation System</h3>
                     </div>
                     <div class="project-content">
                         <p class="project-description">
-                            Developed a machine learning-based phishing detection model to identify and block malicious URLs and emails. Implemented classification algorithms to improve detection accuracy and reduce false positives. Designed a simple Flask API to integrate the model with a web-based interface.
+                            Developed an advanced AI-powered phishing detection system that achieved 5th place at IIT Kanpur Hackathon. 
+                            Uses machine learning algorithms to identify malicious URLs and prevent phishing attacks in real-time with 95% accuracy.
                         </p>
+                        <div class="tools-used">
+                            <h4>🛠️ Tools & Technologies:</h4>
+                            <div class="tool-tags">
+                                <span class="tool-tag ml">Python</span>
+                                <span class="tool-tag ml">Scikit-learn</span>
+                                <span class="tool-tag ml">Pandas</span>
+                                <span class="tool-tag ml">NumPy</span>
+                                <span class="tool-tag web">Flask</span>
+                                <span class="tool-tag web">HTML/CSS</span>
+                                <span class="tool-tag web">JavaScript</span>
+                                <span class="tool-tag ml">Random Forest</span>
+                                <span class="tool-tag ml">SVM</span>
+                                <span class="tool-tag analysis">URL Analysis</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-header">
+
+                <!-- CTF Challenges Project -->
+                <div class="project-card ctf-project">
+                    <div class="project-header ctf-header">
+                        <span class="project-badge">🎯 CTF</span>
                         <h3 class="project-title">Capture The Flag (CTF) Challenges – TryHackMe</h3>
                     </div>
                     <div class="project-content">
                         <p class="project-description">
-                            Participated in multiple CTF challenges to enhance real-world cybersecurity skills. Explored vulnerability scanning, privilege escalation, and exploitation techniques. Gained hands-on experience with tools like Nmap, Burp Suite, Metasploit, and Wireshark.
+                            Participated in multiple CTF challenges to enhance real-world cybersecurity skills. 
+                            Explored vulnerability scanning, privilege escalation, and exploitation techniques across various security domains.
                         </p>
+                        <div class="tools-used">
+                            <h4>🛠️ Tools & Technologies:</h4>
+                            <div class="tool-tags">
+                                <span class="tool-tag pentest">Nmap</span>
+                                <span class="tool-tag pentest">Burp Suite</span>
+                                <span class="tool-tag pentest">Metasploit</span>
+                                <span class="tool-tag network">Wireshark</span>
+                                <span class="tool-tag os">Linux Terminal</span>
+                                <span class="tool-tag pentest">Nikto</span>
+                                <span class="tool-tag pentest">John the Ripper</span>
+                                <span class="tool-tag pentest">Hydra</span>
+                                <span class="tool-tag os">Windows CMD</span>
+                                <span class="tool-tag analysis">Log Analysis</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-header">
+
+                <!-- VAPT Project -->
+                <div class="project-card vapt-project">
+                    <div class="project-header vapt-header">
+                        <span class="project-badge">🔍 VAPT</span>
                         <h3 class="project-title">VAPT Project (Web Application Security)</h3>
                     </div>
                     <div class="project-content">
                         <p class="project-description">
-                            Conducted Vulnerability Assessment and Penetration Testing on a web application. Identified security loopholes and recommended mitigation strategies. Used tools like Burp Suite, Nessus, and Nikto for scanning and exploitation analysis.
+                            Conducted comprehensive Vulnerability Assessment and Penetration Testing on web applications. 
+                            Identified critical security loopholes and provided detailed mitigation strategies with executive reports.
                         </p>
+                        <div class="tools-used">
+                            <h4>🛠️ Tools & Technologies:</h4>
+                            <div class="tool-tags">
+                                <span class="tool-tag scanner">Burp Suite Pro</span>
+                                <span class="tool-tag scanner">Nessus</span>
+                                <span class="tool-tag scanner">Nikto</span>
+                                <span class="tool-tag scanner">OWASP ZAP</span>
+                                <span class="tool-tag pentest">SQLmap</span>
+                                <span class="tool-tag network">Nmap</span>
+                                <span class="tool-tag pentest">Dirb</span>
+                                <span class="tool-tag analysis">Manual Testing</span>
+                                <span class="tool-tag report">Report Writing</span>
+                                <span class="tool-tag web">Browser DevTools</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-header">
+
+                <!-- Network Traffic Analysis Project -->
+                <div class="project-card network-project">
+                    <div class="project-header network-header">
+                        <span class="project-badge">📊 Network Analysis</span>
                         <h3 class="project-title">Network Traffic Analysis (Wireshark Project)</h3>
                     </div>
                     <div class="project-content">
                         <p class="project-description">
-                            Captured and analyzed network traffic using Wireshark to identify anomalies and potential attacks. Documented suspicious packets and network behaviors to strengthen security monitoring skills.
+                            Captured and analyzed network traffic to identify anomalies, potential attacks, and suspicious behaviors. 
+                            Documented findings and created network security monitoring protocols for threat detection.
                         </p>
+                        <div class="tools-used">
+                            <h4>🛠️ Tools & Technologies:</h4>
+                            <div class="tool-tags">
+                                <span class="tool-tag network">Wireshark</span>
+                                <span class="tool-tag network">TCPdump</span>
+                                <span class="tool-tag network">Netstat</span>
+                                <span class="tool-tag analysis">Packet Analysis</span>
+                                <span class="tool-tag network">Network Protocols</span>
+                                <span class="tool-tag analysis">Traffic Filtering</span>
+                                <span class="tool-tag network">Pcap Files</span>
+                                <span class="tool-tag analysis">Statistical Analysis</span>
+                                <span class="tool-tag report">Documentation</span>
+                                <span class="tool-tag network">Network Monitoring</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,7 +247,7 @@
     <!-- Achievements Section -->
     <section id="achievements">
         <div class="container">
-            <h2 class="section-title">ACHIEVEMENTS</h2>
+            <h2 class="section-title">Achievements</h2>
             <div class="achievements-content">
                 <div class="achievement-card">
                     <div class="achievement-header">
@@ -193,8 +269,8 @@
     <!-- Experience Section -->
     <section id="experience">
         <div class="container">
-            <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
-            <div class="experience-timeline">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Cyber Security Intern</h3>
@@ -211,8 +287,8 @@
     <!-- Education Section -->
     <section id="education">
         <div class="container">
-            <h2 class="section-title">EDUCATION</h2>
-            <div class="education-timeline">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Bachelor of Technology (B.Tech) in Cybersecurity and IoT</h3>
@@ -238,7 +314,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <h2 class="section-title">CONTACT</h2>
+            <h2 class="section-title">Contact</h2>
             <div class="contact-info">
                 <div class="contact-item">
                     <div class="contact-icon">📧</div>
@@ -265,21 +341,21 @@
     </section>
 
     <!-- Thank You Section -->
-    <section id="thankyou" style="padding: 60px 0; background: rgba(0, 0, 0, 0.9); text-align: center; border-top: 2px solid #00ff00;">
+    <section id="thankyou" style="padding: 60px 0; background: rgba(15, 15, 35, 0.8); text-align: center; border-top: 1px solid rgba(99, 102, 241, 0.3);">
         <div class="container">
-            <h2 style="color: #00ff00; font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 0 0 10px rgba(0, 255, 0, 0.5); font-family: 'Courier New', monospace;">
-                > THANK YOU FOR VISITING
+            <h2 style="background: linear-gradient(135deg, #ffffff 0%, #6366f1 50%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 2.5rem; margin-bottom: 1rem; font-weight: 700;">
+                Thank You For Visiting
             </h2>
-            <p style="color: #ff0040; font-size: 1.3rem; margin-bottom: 2rem; text-shadow: 0 0 5px rgba(255, 0, 64, 0.5);">
+            <p style="color: #8b5cf6; font-size: 1.3rem; margin-bottom: 2rem; font-weight: 500;">
                 Connection established successfully. Portfolio data transmitted.
             </p>
-            <p style="color: #00ff00; font-size: 1.1rem; line-height: 1.6; max-width: 600px; margin: 0 auto;">
+            <p style="color: #cbd5e1; font-size: 1.1rem; line-height: 1.6; max-width: 600px; margin: 0 auto;">
                 Thank you for exploring my cybersecurity portfolio. I hope you found the information valuable and insightful. 
                 Feel free to reach out for collaborations, opportunities, or just to discuss the fascinating world of cybersecurity!
             </p>
-            <div style="margin-top: 2rem; padding: 1rem; background: rgba(0, 50, 0, 0.3); border: 1px solid #00ff00; border-radius: 5px; display: inline-block;">
-                <p style="color: #00ff00; margin: 0; font-family: 'Courier New', monospace;">
-                    Stay secure, stay vigilant!
+            <div style="margin-top: 2rem; padding: 1rem; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 12px; display: inline-block;">
+                <p style="color: #6366f1; margin: 0; font-weight: 600;">
+                    Stay secure, stay vigilant! 🛡️
                 </p>
             </div>
         </div>
