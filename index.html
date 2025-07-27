@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep S - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Matrix Background -->
+    <div class="matrix-bg"></div>
+    <canvas class="matrix-canvas" id="matrixCanvas"></canvas>
+    <div class="cyber-grid"></div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">PRADEEP_S_PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#certifications">CERTIFICATIONS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>PRADEEP S</h1>
+            <p class="tagline">Cybersecurity Enthusiast | CEH & CCNA Certified</p>
+            <p class="intro">I specialize in cybersecurity and ethical hacking, with expertise in phishing detection and network security. My goal is to build innovative and reliable solutions to protect digital systems from modern cyber threats.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">[VIEW_PROJECTS]</a>
+                <a href="#contact" class="btn btn-secondary">[DOWNLOAD_RESUME]</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">ABOUT ME</h2>
+            <div class="about-content">
+                <p>I am a cybersecurity and ethical hacking enthusiast with a focus on building secure and reliable digital solutions. With hands-on experience in phishing detection and a CCNA certification, I strive to create innovative strategies to tackle modern cyber threats.</p>
+                <br>
+                <p>I enjoy exploring ethical hacking, network defense, and real-world security challenges. My goal is to develop smart defense strategies and tools that make digital systems more secure and resilient.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">TECHNICAL SKILLS</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>🛡️ CYBERSECURITY SKILLS</h3>
+                    <div class="skill-item">→ Networking Fundamentals</div>
+                    <div class="skill-item">→ Operating Systems (Linux, Windows)</div>
+                    <div class="skill-item">→ Web Application Vulnerability Assessment</div>
+                    <div class="skill-item">→ Capture The Flag (CTF) Challenges (TryHackMe)</div>
+                    <div class="skill-item">→ Threat Analysis & Vulnerability Scanning</div>
+                </div>
+                <div class="skill-category">
+                    <h3>💻 PROGRAMMING & TOOLS</h3>
+                    <div class="skill-item">→ Languages: Python, Java, Web Development (HTML, CSS)</div>
+                    <div class="skill-item">→ Databases: MySQL, MongoDB</div>
+                    <div class="skill-item">→ CEH Tools: Wireshark, Nmap, Burp Suite, Metasploit, Nessus, Nikto, John the Ripper</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title">CERTIFICATIONS & COURSES</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3 class="certification-title">🏆 CEH (Certified Ethical Hacker)</h3>
+                    </div>
+                    <div class="certification-content">
+                        <p>Industry-recognized certification in ethical hacking and penetration testing methodologies.</p>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3 class="certification-title">🌐 CCNA</h3>
+                    </div>
+                    <div class="certification-content">
+                        <p>Cisco Certified Network Associate - Comprehensive networking and security fundamentals.</p>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3 class="certification-title">🔒 Cyber Security Course</h3>
+                    </div>
+                    <div class="certification-content">
+                        <p>Advanced cybersecurity specialization from InternzLearn & Corizo Edu Tech.</p>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <h3 class="certification-title">💻 HDCA (C & C++)</h3>
+                    </div>
+                    <div class="certification-content">
+                        <p>Hardware and software programming certification in C and C++ languages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Phishing Detection System (ML-Based)</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Developed a machine learning-based phishing detection model to identify and block malicious URLs and emails. Implemented classification algorithms to improve detection accuracy and reduce false positives. Designed a simple Flask API to integrate the model with a web-based interface.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Capture The Flag (CTF) Challenges – TryHackMe</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Participated in multiple CTF challenges to enhance real-world cybersecurity skills. Explored vulnerability scanning, privilege escalation, and exploitation techniques. Gained hands-on experience with tools like Nmap, Burp Suite, Metasploit, and Wireshark.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">VAPT Project (Web Application Security)</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Conducted Vulnerability Assessment and Penetration Testing on a web application. Identified security loopholes and recommended mitigation strategies. Used tools like Burp Suite, Nessus, and Nikto for scanning and exploitation analysis.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Network Traffic Analysis (Wireshark Project)</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Captured and analyzed network traffic using Wireshark to identify anomalies and potential attacks. Documented suspicious packets and network behaviors to strengthen security monitoring skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h2 class="section-title">ACHIEVEMENTS</h2>
+            <div class="achievements-content">
+                <div class="achievement-card">
+                    <div class="achievement-header">
+                        <h3 class="achievement-title">🏆 5th Prize – IIT Kanpur Hackathon (AI-Powered Phishing Detection and Mitigation)</h3>
+                    </div>
+                    <div class="achievement-content">
+                        <ul class="achievement-list">
+                            <li>Awarded <strong>5th prize</strong> in a national-level hackathon conducted by IIT Kanpur, competing against top engineering and tech teams across India.</li>
+                            <li>Led the development of an <strong>AI-powered phishing detection and mitigation system</strong> capable of identifying malicious URLs and preventing attacks in real time.</li>
+                            <li>Designed and implemented the machine learning pipeline, enhancing detection accuracy and minimizing false positives.</li>
+                            <li>Recognized by judges for <strong>innovative cybersecurity strategies and real-world applicability</strong> of the project.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Cyber Security Intern</h3>
+                        <p><strong>Prompt Infotech, Coimbatore</strong></p>
+                        <p><em>Aug 2024 – Nov 2024 (4 months)</em></p>
+                        <br>
+                        <p>Completed a 3-month offline internship focused on cybersecurity fundamentals and real-world applications. Gained hands-on experience in CCNA networking, A+ and N+ hardware & network essentials, and CEH concepts. Worked on live cyber cases including mobile data recovery and other practical assignments. Developed problem-solving skills addressing real-time cybersecurity challenges under professional mentorship.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">EDUCATION</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology (B.Tech) in Cybersecurity and IoT</h3>
+                        <p><strong>Sri Ramachandra Institute of Higher Education and Research, Chennai</strong></p>
+                        <p><em>Aug 2022 – Aug 2026 (Ongoing)</em></p>
+                        <br>
+                        <p>Current CGPA: 7.5. Focus on cybersecurity, networks, hacking, and IoT technologies. Skills gained: C++, CSS.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Higher Secondary School Certificate (12th Grade)</h3>
+                        <p><strong>Bharath Matric Higher Secondary School</strong></p>
+                        <p><em>Jan 2007 – Mar 2022</em></p>
+                        <br>
+                        <p>Concentration in Computer Science and Mathematics. Built strong foundation in logical thinking and technical problem-solving.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>pradeep103438@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p>www.linkedin.com/in/pradeep-cyber</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">💻</div>
+                    <h3>GitHub</h3>
+                    <p>https://github.com/PradeepCyber</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <h3>Phone</h3>
+                    <p>+91 8270683893</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section id="thankyou" style="padding: 60px 0; background: rgba(0, 0, 0, 0.9); text-align: center; border-top: 2px solid #00ff00;">
+        <div class="container">
+            <h2 style="color: #00ff00; font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 0 0 10px rgba(0, 255, 0, 0.5); font-family: 'Courier New', monospace;">
+                > THANK YOU FOR VISITING
+            </h2>
+            <p style="color: #ff0040; font-size: 1.3rem; margin-bottom: 2rem; text-shadow: 0 0 5px rgba(255, 0, 64, 0.5);">
+                Connection established successfully. Portfolio data transmitted.
+            </p>
+            <p style="color: #00ff00; font-size: 1.1rem; line-height: 1.6; max-width: 600px; margin: 0 auto;">
+                Thank you for exploring my cybersecurity portfolio. I hope you found the information valuable and insightful. 
+                Feel free to reach out for collaborations, opportunities, or just to discuss the fascinating world of cybersecurity!
+            </p>
+            <div style="margin-top: 2rem; padding: 1rem; background: rgba(0, 50, 0, 0.3); border: 1px solid #00ff00; border-radius: 5px; display: inline-block;">
+                <p style="color: #00ff00; margin: 0; font-family: 'Courier New', monospace;">
+                    Stay secure, stay vigilant!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
